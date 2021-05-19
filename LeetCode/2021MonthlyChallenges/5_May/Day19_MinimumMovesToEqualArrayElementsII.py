@@ -11,7 +11,7 @@ In one move, you can increment or decrement an element of the array by 1.
 '''
 
 class Solution:
-    def minMoves2(self, nums: List[int]) -> int:
+    def minMoves2(self,nums):
         nums.sort()
         median=nums[len(nums)//2]
         res=0
