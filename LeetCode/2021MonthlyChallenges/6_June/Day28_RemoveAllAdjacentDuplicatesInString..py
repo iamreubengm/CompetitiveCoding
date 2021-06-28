@@ -14,7 +14,7 @@ Example:
 '''
 
 class Solution:
-    def removeDuplicates(self, s: str) -> str:
+    def removeDuplicates(self,s):
         stack=[]
         for x in s:
             if stack and stack[-1]==x:
