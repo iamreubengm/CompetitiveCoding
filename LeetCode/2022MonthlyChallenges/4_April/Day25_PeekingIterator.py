@@ -81,7 +81,6 @@ class PeekingIterator:
         :rtype: bool
         """
         return self.buffer!=None
-        
 
 # Your PeekingIterator object will be instantiated and called as such:
 # iter = PeekingIterator(Iterator(nums))
